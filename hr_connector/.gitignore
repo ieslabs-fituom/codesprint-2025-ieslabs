@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+# But keep the example file
+!.env.example
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Test & coverage files
+.coverage
+htmlcov/
+*.log
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Optional cache
+.cache/
+*.sqlite3
+
+# System files
+Thumbs.db
